@@ -1,6 +1,7 @@
 RtFracas::Application.routes.draw do
-  get "users/new"
+  resources :users
 
+#  get "users/new"
 #  get "pages/home"
 #  get "pages/about"
 #  get "pages/contact"
